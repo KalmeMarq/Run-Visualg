@@ -1,0 +1,40 @@
+Algoritmo "semnome"
+// Disciplina   : [Aplicações Informáticas]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 10/14/2021
+Var
+// Seção de Declarções das variáveis
+firstNum: inteiro
+lastNum: inteiro
+index: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+Escreva ("From: ")
+Leia (firstNum)
+
+Escreva ("To: ")
+Leia (lastNum)
+
+Se firstNum <= lastNum entao
+
+index <- firstNum
+
+Enquanto index <= lastNum faca
+   escreval (index)
+   index <- index + 1
+fimenquanto
+senao
+
+index <- firstNum
+
+Enquanto index >= lastNum faca
+   escreval (index)
+   index <- index - 1
+fimenquanto
+fimse
+
+Fimalgoritmo
