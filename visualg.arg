@@ -1,40 +1,15 @@
-Algoritmo "semnome"
-// Disciplina   : [Aplicações Informáticas]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 10/14/2021
-Var
-// Seção de Declarções das variáveis
-firstNum: inteiro
-lastNum: inteiro
-index: inteiro
+Algoritmo "lendo do arquivo" 
 
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+arquivo "texto.txt"
 
-Escreva ("From: ")
-Leia (firstNum)
+Var 
+x: inteiro
+y: inteiro
 
-Escreva ("To: ")
-Leia (lastNum)
+Inicio 
 
-Se firstNum <= lastNum entao
-
-index <- firstNum
-
-Enquanto index <= lastNum faca
-   escreval (index)
-   index <- index + 1
-fimenquanto
-senao
-
-index <- firstNum
-
-Enquanto index >= lastNum faca
-   escreval (index)
-   index <- index - 1
-fimenquanto
-fimse
+para x de 1 ate 5 faca 
+ leia (y) 
+Fimpara 
 
 Fimalgoritmo
