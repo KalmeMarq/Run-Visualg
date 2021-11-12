@@ -1,7 +1,9 @@
 # Run-Visualg
 
-run "node.exe runArg.js" or "node.exe runArg.js -keep" if you want to keep the output file.
-run "node runArg.js" or "node runArg.js -keep" if you want to keep the output file.
+run "node.exe runAlg.js" or "node.exe runAlg.js -keep" if you want to keep the output file.
+run "node runAlg.js" or "node runAlg.js -keep" if you want to keep the output file.
+
+Use -norun if you don't want to run in the cmd
 
 Known features missing
   - aleatorio
